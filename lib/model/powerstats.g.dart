@@ -7,12 +7,12 @@ part of 'powerstats.dart';
 // **************************************************************************
 
 Powerstats _$PowerstatsFromJson(Map<String, dynamic> json) => Powerstats(
-      json['intelligence'] as String,
-      json['strength'] as String,
-      json['speed'] as String,
-      json['durability'] as String,
-      json['power'] as String,
-      json['combat'] as String,
+      intelligence: json['intelligence'] as String,
+      strength: json['strength'] as String,
+      speed: json['speed'] as String,
+      durability: json['durability'] as String,
+      power: json['power'] as String,
+      combat: json['combat'] as String,
     );
 
 Map<String, dynamic> _$PowerstatsToJson(Powerstats instance) =>
